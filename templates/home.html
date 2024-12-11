@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Post Now</h1>
+<form method="POST" action="/post-now">
+    <textarea name="tweet" placeholder="Write your tweet here..." required></textarea>
+    <button type="submit">Post Now</button>
+</form>
+{% endblock %}

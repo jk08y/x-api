@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Scheduled Posts</h1>
+<ul>
+    {% for job in jobs %}
+        <li>{{ job.id }} - {{ job.next_run_time }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
