@@ -1,21 +1,21 @@
 # X (Twitter) Automation API
 
-## 📝 Description
+## Description
 This Flask-based web application allows users to post tweets immediately or schedule tweets for future posting using the X (Twitter) API. The application provides a simple web interface for managing social media posts.
 
-## ✨ Features
+## Features
 - Instant tweet posting
 - Tweet scheduling
 - View scheduled posts
 - Web-based user interface
 
-## 🛠 Prerequisites
+## Prerequisites
 - Python 3.8+
 - Flask
 - Tweepy
 - APScheduler
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -42,13 +42,13 @@ Create a `.env` file or update the credentials directly in `app.py`:
 - `ACCESS_SECRET`: X Access Token Secret
 - `BEARER_TOKEN`: X Bearer Token
 
-## 🔧 Running the Application
+##  Running the Application
 ```bash
 python app.py
 ```
 Navigate to `http://localhost:5000` in your web browser.
 
-## 📋 Project Structure
+## Project Structure
 - `app.py`: Main Flask application
 - `scheduler.py`: Handles tweet scheduling logic
 - `templates/`: HTML template files
@@ -56,20 +56,20 @@ Navigate to `http://localhost:5000` in your web browser.
   - `schedule.html`: Page for scheduling tweets
   - `posts.html`: View scheduled posts
 
-## 🤝 Contributing
+## Contributing
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## ⚠️ Important Notes
+##  Important Notes
 - Ensure you have valid X Developer credentials
 - Keep your API keys and tokens confidential
 - Comply with X's Developer Terms of Service
 
-## 📄 License
+## License
 [MIT License]
 
-## 🐛 Issues
+## Issues
 Report issues at: https://github.com/jk08y/x-api/issues
