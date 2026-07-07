@@ -7,6 +7,7 @@ This Flask-based web application allows users to post tweets immediately or sche
 - Instant tweet posting
 - Tweet scheduling
 - View scheduled posts
+- Optional Xquik source context for instant and scheduled tweets
 - Web-based user interface
 
 ## Prerequisites
@@ -41,6 +42,8 @@ Create a `.env` file or update the credentials directly in `app.py`:
 - `ACCESS_TOKEN`: X Access Token
 - `ACCESS_SECRET`: X Access Token Secret
 - `BEARER_TOKEN`: X Bearer Token
+- `FLASK_SECRET_KEY`: Flask session secret
+- `XQUIK_API_KEY`: Optional Xquik API key for source context
 
 ##  Running the Application
 ```bash
